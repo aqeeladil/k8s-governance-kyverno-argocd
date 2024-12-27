@@ -1,4 +1,3 @@
-# Kubernetes Governance Using Kyverno and Argo CD
 # Kubernetes Governance with Kyverno and Argo CD: Automating Cluster Security Policies
 
 ## Architecture

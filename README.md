@@ -39,8 +39,6 @@ Security Risks: Lack of proper security configurations in pods
 
 ## How Kyverno Works
 
-![image](https://user-images.githubusercontent.com/43399466/219931795-dce93e3b-9f78-42ef-ba5e-9aa685252e2f.png)
-
 1. **User Action:** 
     - A developer tries to create or update a Kubernetes resource (e.g., Pod).
 2. **API Server Interaction:**
@@ -53,11 +51,9 @@ Security Risks: Lack of proper security configurations in pods
 4. **Approval or Rejection:**
     - Based on the policy evaluation, the resource is created or rejected.
 
+![image](https://user-images.githubusercontent.com/43399466/219931795-dce93e3b-9f78-42ef-ba5e-9aa685252e2f.png)
+
 ## Kyverno Policy Structure
-
-Kyverno is a policy engine designed for Kubernetes
-
-![image](https://user-images.githubusercontent.com/43399466/219931973-14c0f501-ae49-4cab-9da5-b01950cc308f.png)
 
 A Kyverno Policy is a collection of rules, and each rule contains:
 - **Match Declaration:** Specifies the resources the rule applies to.
@@ -70,6 +66,8 @@ A Kyverno Policy is a collection of rules, and each rule contains:
 
 **Rule Limitation:**
 - Each rule can only contain one of the four action types (validate, mutate, generate, or verifyImages).
+
+![image](https://user-images.githubusercontent.com/43399466/219931973-14c0f501-ae49-4cab-9da5-b01950cc308f.png)
 
 ## Policy Scope
 
