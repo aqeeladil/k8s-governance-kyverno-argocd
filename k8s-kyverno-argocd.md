@@ -69,7 +69,7 @@ kubectl get clusterpolicy
 kubectl create deployment nginx --image=nginx
 
 # Test with a Compliant Deployment.
-kubectl apply -f nginx-deployment.yaml
+kubectl apply -f examples/nginx-deployment.yaml
 kubectl get pods
 
 # View Kyverno Logs:
